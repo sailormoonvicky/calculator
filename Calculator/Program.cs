@@ -1,16 +1,31 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 Console.WriteLine("Welcome to the calculator!");
+Console.WriteLine("===============");
 
-Console.Write("Input your first number: ");
+Console.Write("Please enter the operator: ");
+string firstOperator = Console.ReadLine();
 
-int x = int.Parse(Console.ReadLine());
+Console.Write("Please enter the first number: ");
+string firstNumber = Console.ReadLine();
+int x = int.Parse(firstNumber);
 
+Console.Write("Please enter the second number: ");
+string secondNumber = Console.ReadLine();
+int y = int.Parse(secondNumber);
 
-Console.Write("Input your second number: ");
-int y = int.Parse(Console.ReadLine());
+int answer = 0;
 
-int z = x + y;
+if (firstOperator == "+")
+    answer = x + y;
+else if (firstOperator == "-")
+    answer = x - y;
+else if (firstOperator == "*")
+    answer = x * y;
+else if (firstOperator == "/")
+    answer = x / y;
+else 
+    Console.WriteLine("Sorry, I can't understand your operator, please enter the right one");
 
-Console.WriteLine("Result: " + z);
+Console.WriteLine("The answer is: {0} ", answer);
 Console.ReadLine();
