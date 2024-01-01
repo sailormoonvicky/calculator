@@ -12,3 +12,4 @@
 /Users/zhenghanhu/RiderProjects/Calculator/Calculator/obj/Debug/net8.0/Calculator.pdb
 /Users/zhenghanhu/RiderProjects/Calculator/Calculator/obj/Debug/net8.0/Calculator.genruntimeconfig.cache
 /Users/zhenghanhu/RiderProjects/Calculator/Calculator/obj/Debug/net8.0/ref/Calculator.dll
+/Users/zhenghanhu/RiderProjects/Calculator/Calculator/obj/Debug/net8.0/Calculator.sourcelink.json
